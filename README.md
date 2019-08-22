@@ -7,7 +7,7 @@ cd /root/bin
 wget https://raw.githubusercontent.com/kamilkobak/backup/master/mysql_backup.sh
 chmod +x mysql_backup.sh
 ```
-2) Addto cron
+2) Add to cron
 ```
 crontab -e
 ```
