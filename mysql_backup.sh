@@ -21,7 +21,7 @@ DATE=`date +%Y%m%d-%H%M%S`
 SYSLOGTAG=MySQL-Backup
 
 #Email address for notifications
-EMAIL="it-pnt@pnt.opole.pl"
+EMAIL="logs@some.com"
 
 #get list of databases
     databases=`mysql -h $HOST -u $USER -p$PASSWORD -e "SHOW DATABASES;" | tr -d "| " | grep -v Database`
