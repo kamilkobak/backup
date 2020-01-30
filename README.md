@@ -1,5 +1,5 @@
 # Backup scripts
-## MySQL backup
+## Backup of all MySQL databases in separate files.
 1) Download `mysql_backup.sh`
 ```
 mkdir /root/bin/
