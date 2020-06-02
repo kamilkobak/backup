@@ -17,7 +17,7 @@ and add:
 ```
 
 
-##Backup of all PostgreSQL databases in single file.
+## Backup of all PostgreSQL databases in single file.
 1) Download 'postgresql_backup.sh'
 ```
 mkdir /root/bin/
