@@ -1,4 +1,6 @@
 # Backup scripts
+{:toc}
+
 ## Backup of all MySQL databases in separate files.
 1) Download `mysql_backup.sh`
 ```
@@ -16,6 +18,7 @@ and add:
 59 23 * * * /root/bin/mysql_backup.sh >/dev/null 2>&1
 ```
 
+====
 
 ## Backup of all PostgreSQL databases in single file.
 1) Download 'postgresql_backup.sh'
